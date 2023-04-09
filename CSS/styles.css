@@ -1,0 +1,21 @@
+body {color: #434455;
+background-color: #FFFFFF;}
+
+.site-nav a:hover, a:focus {color: blue;}
+.site-nav a {text-decoration: none;color: #2e2f42;}
+
+#4D5AE5    Primary Brand     Iris
+#404BBF    Pressed state     OCEAN
+#2E2F42    Dark              Navy blue
+#31D0AA    Success           GREEN (есть прозрачность)
+#434455    Text (body text)  SLATE
+#8E8F99    Subtle Text       LIGHT SLATE
+#E7E9FC    Accent            cornflower
+#F4F4FD    Light             CLOUD
+#2E2F42    Modal overlay     NAVY BLUE modal
+#2E2F42    Hero background   GREY
+#FFFFFF    White background  WHITE
+#FCFCFC    Modal background  Dairy
+
+.logo {color: #2E2F42;}
+.web {color: #4D5AE5;}
