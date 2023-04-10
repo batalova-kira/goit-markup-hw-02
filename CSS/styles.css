@@ -15,6 +15,7 @@ body {color:var(--primary-text-color);
 background-color: var(--white-background);}
 
 .list {list-style: none;}
+.undecor {text-decoration: none;}
 
 /* nav-menu */
 .logo {color: var(--title-text-color);}
@@ -23,6 +24,7 @@ background-color: var(--white-background);}
 .web {color: var(--primary-brand-color);}
 .link {color: var(--title-text-color);}
 .link:hover, .link:focus {color: var(--pressed-state-color);}
+.link.current {color: var(--pressed-state-color);}
 .address-link {color: var(--primary-text-color);}
 .address-link:hover, .address-link:focus {color: var(--pressed-state-color);}
 
@@ -54,3 +56,7 @@ background-color: var(--primary-brand-color);}
 
 .button.secondary {color: var(--primary-brand-color);
 background-color: var(--light-color);}
+
+/* Examples */
+.example-title {color: var(--title-text-color);}
+.example-post {color: var(--primary-text-color);}
