@@ -43,3 +43,14 @@ background-color: var(--white-background);}
 /* Footer */
 .footer-logo {color: var(--light-color)}
 .footer-text {color: var(--light-color)}
+
+/* Button */
+.button {color: var(--title-text-color); 
+    background-color: var(--white-background);}
+
+.button.primary {color: var(--white-background);
+background-color: var(--primary-brand-color);}
+.button.primary:hover, .button.primary:focus {color: var(--pressed-state-color);}
+
+.button.secondary {color: var(--primary-brand-color);
+background-color: var(--light-color);}
