@@ -1,4 +1,4 @@
-root {}
+root {
 --primyry-text-color: #434455
 --title-text-color: #2E2F42
 --primary-brand-color: #4D5AE5
@@ -9,7 +9,7 @@ root {}
 --light-color: #F4F4FD
 --modal-overlay-color: rgba(46, 47, 66, 0.4)
 --hero-background: 
---white-background: #FFFFFF
+--white-background: #FFFFFF}
 
 
 
