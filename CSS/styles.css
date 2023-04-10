@@ -22,7 +22,9 @@ background-color: var(--white-background);}
 .logo:hover {color: var(--pressed-state-color);}
 .web {color: var(--primary-brand-color);}
 .link {color: var(--title-text-color);}
-.link:hover {color: var(--pressed-state-color);}
+.link:hover, .link:focus {color: var(--pressed-state-color);}
+.address-link {color: var(--primary-text-color);}
+.address-link:hover, .address-link:focus {color: var(--pressed-state-color);}
 
 /* Hero*/
 .hero-tiitle {color: var(--white-background);}
@@ -33,3 +35,11 @@ background-color: var(--white-background);}
 /* Feachers */
 .feachers-title {color: var(--title-text-color)}
 .feachers-text {color: var(--primary-text-color);}
+
+/* Our Team */
+.team-title {color: var(--title-text-color)}
+.team-text {color: var(--primary-text-color)}
+
+/* Footer */
+.footer-logo {color: var(--light-color)}
+.footer-text {color: var(--light-color)}
