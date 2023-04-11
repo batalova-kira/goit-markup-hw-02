@@ -14,16 +14,16 @@
 body {color:var(--primary-text-color);
 background-color: var(--white-background);
 
-font-family: roboto, sans-serif;
+font-family: Roboto, sans-serif;
 letter-spacing: 0.02em;}
 
 .list {list-style: none;}
 .undecor {text-decoration: none;}
-
+.up {text-transform: uppercase;}
 /* nav-menu */
 .logo {color: var(--primary-brand-color);
 
-font-family: 'Raleway';
+font-family: Raleway;
 letter-spacing: 0.03em;
 font-weight: 800;
 font-size: 18px;
