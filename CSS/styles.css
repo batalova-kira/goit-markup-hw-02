@@ -11,7 +11,7 @@
 }
 
 
-body {color:var(--primary-text-color);
+.body {color:var(--primary-text-color);
 background-color: var(--white-background);
 
 font-family: 'Roboto', sans-serif;
@@ -96,7 +96,7 @@ font-weight: 400;
     text-align: center;}
 
 /* Footer */
-.footer-logo {color: var(--light-color);
+.span-footer {color: var(--light-color);
 font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
