@@ -14,7 +14,7 @@
 body {color:var(--primary-text-color);
 background-color: var(--white-background);
 
-font-family: "Roboto", sans-serif;
+font-family: 'Roboto', sans-serif;
 letter-spacing: 0.02em;}
 
 .list {list-style: none;}
@@ -115,6 +115,7 @@ font-weight: 400;
 .button {color: var(--title-text-color); 
     background-color: var(--white-background);
 
+font-family: 'Roboto'
 letter-spacing: 0.04em;
 font-family: inherit;
 font-weight: 500;
@@ -125,7 +126,6 @@ cursor: pointer;}
 
 .button.primary {color: var(--white-background);
 background-color: var(--primary-brand-color);}
-.button.primary:hover, .button.primary:focus {color: var(--pressed-state-color);}
 
 .button.secondary {color: var(--primary-brand-color);
 background-color: var(--light-color);}
