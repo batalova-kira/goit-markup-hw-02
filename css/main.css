@@ -11,7 +11,7 @@
 }
 
 
-.body {color:var(--primary-text-color);
+body {color:var(--primary-text-color);
 background-color: var(--white-background);
 
 font-family: 'Roboto', sans-serif;
