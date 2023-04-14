@@ -40,9 +40,10 @@ line-height: 1.5;}
 
 .link:hover, .link:focus {color: var(--pressed-state-color);}
 
+.address {font-style: normal;}
+
 .address-link {color: var(--primary-text-color);
 
-font-style: normal;
  font-size: 16px;
 line-height: 1.5;}
 
@@ -56,21 +57,24 @@ line-height: 1.5;}
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;}
+text-align: center;
+letter-spacing: 0.02em;}
+
 
 /* Section*/
 .section-pretitle {visibility: hidden;}
+
 .section-title {color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;}
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
 
 .section-text {color: var(--primary-text-color);
     
     font-size: 16px;
     line-height: 1.5;}
-
 
 /* Feachers */
 .feachers-title {color: var(--title-text-color);
@@ -79,14 +83,14 @@ text-align: center;}
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    letter-spacing: 0.02em;}
 
 /* Our Team */
 .team {background-color: var(--light-color);}
 .team-subtitle {color: var(--title-text-color);
-    
 
-font-weight: 700;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -128,6 +132,8 @@ font-weight: 400;
     line-height: 1.5;}
 
 /* Button */
+.pretitle-buttons {visibility: hidden;}
+
 .button {color: var(--title-text-color); 
     background-color: var(--white-background);
 
@@ -137,27 +143,32 @@ font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-
 cursor: pointer;}
-
-.button:hover, .button:focus {
-    color: var(--white-background);
-    background-color: var(--pressed-state-color)
-}
 
 .button.primary {color: var(--white-background);
 background-color: var(--primary-brand-color);}
 
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--pressed-state-color)
+}
+
 .button.secondary {color: var(--primary-brand-color);
 background-color: var(--accent-color);}
 
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--pressed-state-color)}
+
 /* Examples */
 .example-link {font-family: inherit;}
+
 .example-title {color: var(--title-text-color);
 
 font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;}
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
    
 .example-text {color: var(--primary-text-color);
 
@@ -168,6 +179,6 @@ font-weight: 400;
 .example-back {color: var(--light-color);
     background-color: var(--primary-brand-color);
 
-font-weight: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;}
