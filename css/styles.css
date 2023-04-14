@@ -19,7 +19,7 @@ letter-spacing: 0.02em;}
 
 .list {list-style: none;}
 .link {text-decoration: none;}
-.up {text-transform: uppercase;}
+
 /* nav-menu */
 .nav-logo {color: var(--primary-brand-color);
 
@@ -49,8 +49,9 @@ line-height: 1.5;}
 .address-link:hover, .address-link:focus {color: var(--pressed-state-color);}
 
 /* Hero*/
+.hero {background-color: var(--title-text-color);}
+
 .hero-title {color: var(--white-background);
-    background-color: var(--title-text-color);
 
 font-weight: 700;
 font-size: 56px;
@@ -123,8 +124,6 @@ font-weight: 400;
 .span-footer {color: var(--light-color);}
 
 .footer-text {color: var(--light-color);
-    
-
     font-size: 16px;
     line-height: 1.5;}
 
@@ -141,26 +140,33 @@ line-height: 1.5;
 
 cursor: pointer;}
 
+.button:hover, .button:focus {
+    color: var(--white-background);
+    background-color: var(--pressed-state-color)
+}
+
 .button.primary {color: var(--white-background);
 background-color: var(--primary-brand-color);}
 
 .button.secondary {color: var(--primary-brand-color);
-background-color: var(--light-color);}
+background-color: var(--accent-color);}
 
 /* Examples */
+.example-link {font-family: inherit;}
 .example-title {color: var(--title-text-color);
 
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;}
    
-.example-post {color: var(--primary-text-color);
+.example-text {color: var(--primary-text-color);
 
 font-weight: 400;
     font-size: 16px;
     line-height: 1.5;}
 
 .example-back {color: var(--light-color);
+    background-color: var(--primary-brand-color);
 
 font-weight: 400;
     font-size: 16px;
