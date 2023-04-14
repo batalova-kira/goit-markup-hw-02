@@ -93,7 +93,7 @@ letter-spacing: 0.02em;}
 
 .section {background-color: var(--light-color);}
 
-.section-div {background-color: #FFFFFF;}
+.section-item {background-color: #FFFFFF;}
 
 .section-subtitle {color: var(--title-text-color);
 
@@ -158,11 +158,10 @@ background-color: var(--primary-brand-color);}
 
 .button.primary:hover,
 .button.primary:focus {
-    background-color: var(--pressed-state-color)
-}
+    background-color: var(--pressed-state-color)}
 
-.button.secondary {color: var(--primary-brand-color);
-background-color: var(--accent-color);}
+.button.secondary {color: var(--light-color);
+background-color: var(--primary-brand-color);}
 
 /* Examples */
 .example-link {font-family: inherit;}
