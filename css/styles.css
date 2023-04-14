@@ -87,14 +87,15 @@ letter-spacing: 0.02em;}
     letter-spacing: 0.02em;}
 
 /* Our Team */
-.team {background-color: var(--light-color);}
+.team-item {background-color: var(--light-color);}
 .team-subtitle {color: var(--title-text-color);
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    letter-spacing: 0.02em;}
 
 .team-title {
     color: var(--title-text-color);
@@ -155,10 +156,6 @@ background-color: var(--primary-brand-color);}
 
 .button.secondary {color: var(--primary-brand-color);
 background-color: var(--accent-color);}
-
-.button.secondary:hover,
-.button.secondary:focus {
-    background-color: var(--pressed-state-color)}
 
 /* Examples */
 .example-link {font-family: inherit;}
